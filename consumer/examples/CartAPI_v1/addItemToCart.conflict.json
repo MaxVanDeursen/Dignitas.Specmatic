@@ -1,0 +1,19 @@
+{
+  "partial": {
+    "http-request": {
+      "method": "POST",
+      "path": "/carts/409/items",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+      }
+    },
+    "http-response": {
+      "status": 409,
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}

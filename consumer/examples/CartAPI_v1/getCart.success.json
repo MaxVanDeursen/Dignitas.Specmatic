@@ -1,0 +1,25 @@
+{
+  "http-request": {
+    "method": "GET",
+    "path": "/carts/2",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "http-response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "userId": 1,
+      "cartId": 2,
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 4
+        }
+      ]
+    }
+  }
+}

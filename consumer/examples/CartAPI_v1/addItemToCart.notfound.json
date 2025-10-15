@@ -1,0 +1,22 @@
+{
+  "partial": {
+    "http-request": {
+      "method": "POST",
+      "path": "/carts/404/items",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+      }
+    },
+    "http-response": {
+      "status": 404,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "reason": "CartNotFound"
+      }
+    }
+  }
+}

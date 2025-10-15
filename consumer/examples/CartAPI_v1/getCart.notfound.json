@@ -1,0 +1,16 @@
+{
+  "http-request": {
+    "method": "GET",
+    "path": "/carts/404",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "cartId": 404
+  },
+  "http-response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

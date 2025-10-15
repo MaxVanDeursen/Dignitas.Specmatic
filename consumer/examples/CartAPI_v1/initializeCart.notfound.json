@@ -1,0 +1,18 @@
+{
+  "http-request": {
+    "method": "POST",
+    "path": "/carts",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "userId": 404
+    }
+  },
+  "http-response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

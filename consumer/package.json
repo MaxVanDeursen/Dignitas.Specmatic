@@ -1,0 +1,15 @@
+{
+  "name": "dignitas-specmatic-consumer",
+  "version": "1.0.0",
+  "description": "Consumer Tests Example using Specmatic as Smart Mock server",
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "axios": "^1.12.2"
+  },
+  "devDependencies": {
+    "testcontainers": "^11.5.1",
+    "vitest": "^3.2.3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "http-request": {
+    "method": "POST",
+    "path": "/carts",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "userId": 1
+    }
+  },
+  "http-response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "cartId": 2
+    }
+  }
+}
