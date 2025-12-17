@@ -2,11 +2,12 @@
   "partial": {
     "http-request": {
       "method": "POST",
-      "path": "/carts/409/items",
+      "path": "/carts/0/items",
       "headers": {
         "Content-Type": "application/json"
       },
       "body": {
+        "productId": 9
       }
     },
     "http-response": {

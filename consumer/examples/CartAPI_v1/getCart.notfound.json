@@ -10,7 +10,8 @@
   "http-response": {
     "status": 404,
     "headers": {
-      "Content-Type": "application/json"
-    }
+      "Content-Type": "application/problem+json"
+    },
+    "body": {}
   }
 }

@@ -2,15 +2,16 @@
   "partial": {
     "http-request": {
       "method": "POST",
-      "path": "/carts/409/items",
+      "path": "/carts",
       "headers": {
         "Content-Type": "application/json"
       },
       "body": {
+        "userId": 404
       }
     },
     "http-response": {
-      "status": 409,
+      "status": 404,
       "headers": {
         "Content-Type": "application/problem+json"
       },

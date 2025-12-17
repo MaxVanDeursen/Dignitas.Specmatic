@@ -1,0 +1,16 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+      - 8080
+  specmatic-provider-tests:
+    image: specmatic/specmatic:latest
+    volumes:
+      - ./:/usr/src/app
+    command: ["test", "--testBaseURL=http://api:8080"]
+    environment:
+      SPECMATIC_GENERATIVE_TESTS: true
+    depends_on:
+      - api

@@ -1,0 +1,7 @@
+version: 2
+contracts:
+  - provides:
+    - CartAPI_v1.yaml
+
+examples:
+  - examples/CartAPI_v1/

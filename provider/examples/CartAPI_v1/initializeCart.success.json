@@ -14,8 +14,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "body": {
-      "cartId": 2
-    }
+    "body": {}
   }
 }

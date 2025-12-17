@@ -2,7 +2,7 @@
   "partial": {
     "http-request": {
       "method": "POST",
-      "path": "/carts/409/items",
+      "path": "/carts/404/items",
       "headers": {
         "Content-Type": "application/json"
       },
@@ -10,7 +10,7 @@
       }
     },
     "http-response": {
-      "status": 409,
+      "status": 404,
       "headers": {
         "Content-Type": "application/problem+json"
       },
