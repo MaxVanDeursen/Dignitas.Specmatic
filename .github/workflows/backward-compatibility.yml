@@ -1,0 +1,22 @@
+name: Backward Compatibility Check
+
+on:
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  backward-compatibility:
+    runs-on: ubuntu-latest
+    container:
+      image: specmatic/specmatic:2.39.7
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Run Specmatic Backward Compatibility Check
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          /usr/local/bin/specmatic backward-compatibility-check --base-branch=origin/master

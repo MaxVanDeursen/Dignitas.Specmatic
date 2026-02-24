@@ -1,4 +1,6 @@
 version: 2
 contracts:
-  - consumes:
-      - CartAPI_v1.yaml
+  - git:
+      url: https://github.com/MaxVanDeursen/Dignitas.Specmatic
+    consumes:
+      - contracts/CartAPI_v1.yaml
