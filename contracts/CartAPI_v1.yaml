@@ -175,6 +175,8 @@ components:
         quantity:
           type: integer
           format: int32
+        name:
+          type: string
       additionalProperties: false
     InitializeCartRequest:
       type: object
